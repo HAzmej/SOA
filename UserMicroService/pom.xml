@@ -65,7 +65,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.insa.micro</groupId>
-			<artifactId>Mission_MicroService</artifactId>
+			<artifactId>MissionMicroService</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
