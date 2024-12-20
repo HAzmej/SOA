@@ -22,6 +22,10 @@ import fr.insa.micro.Mission_MicroService.model.Mission;
 @RestController
 @RequestMapping("/missions")
 public class MissionRessource {
+	@GetMapping("/testAzure")
+	public String testazure(){
+		return "Le test de deploiement d Azure"
+	}
 	@Value("${server.port}")
 	private String serverPort;
 	
